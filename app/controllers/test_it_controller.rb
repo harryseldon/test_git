@@ -346,6 +346,7 @@ class TestItController < ApplicationController
     render :text => chart.to_s
   end
   
-  def hello_git    
+  def hello_git
+    "test1"
   end
 end
