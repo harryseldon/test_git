@@ -14,6 +14,11 @@ require 'open_flash_chart/line_dot'
 require 'open_flash_chart/line_hollow'
 require 'open_flash_chart/pie'
 require 'open_flash_chart/scatter'
+require 'open_flash_chart/scatter_line' # WARNING
+require 'open_flash_chart/radar_axis_labels' # WARNING
+require 'open_flash_chart/radar_axis' # WARNING
+require 'open_flash_chart/radar_spoke_labels' # WARNING
+require 'open_flash_chart/linear_regression' # WARNING
 require 'open_flash_chart/title'
 require 'open_flash_chart/x_axis_label'
 require 'open_flash_chart/x_axis_labels'

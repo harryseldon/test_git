@@ -2448,3 +2448,668 @@ Processing TestItController#graph_code_pie (for 127.0.0.1 at 2008-11-02 14:41:21
 SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
   Parameters: {"action"=>"graph_code_pie", "controller"=>"test_it"}
 Completed in 0.03574 (27 reqs/sec) | Rendering: 0.00039 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_pie]
+
+
+Processing TestItController#index_pie (for 127.0.0.1 at 2008-11-02 19:32:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_pie", "controller"=>"test_it"}
+Rendering test_it/index_pie
+Completed in 0.00325 (307 reqs/sec) | Rendering: 0.00091 (27%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_pie]
+
+
+Processing TestItController#graph_code_pie (for 127.0.0.1 at 2008-11-02 19:32:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_pie", "controller"=>"test_it"}
+Completed in 0.00314 (318 reqs/sec) | Rendering: 0.00026 (8%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_pie]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:03:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00494 (202 reqs/sec) | Rendering: 0.00162 (32%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:03:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+
+
+NameError (uninitialized constant TestItController::ScatterLine):
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:492:in `const_missing'
+    /app/controllers/test_it_controller.rb:296:in `graph_code_scatterline'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:06:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00486 (205 reqs/sec) | Rendering: 0.00135 (27%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:06:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00824 (121 reqs/sec) | Rendering: 0.00033 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:06:39) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00418 (239 reqs/sec) | Rendering: 0.00080 (19%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:06:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00834 (119 reqs/sec) | Rendering: 0.00034 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:06:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00309 (323 reqs/sec) | Rendering: 0.00061 (19%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:06:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00625 (160 reqs/sec) | Rendering: 0.00027 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:07:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00379 (263 reqs/sec) | Rendering: 0.00069 (18%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:07:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00803 (124 reqs/sec) | Rendering: 0.00034 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:07:14) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00379 (263 reqs/sec) | Rendering: 0.00072 (19%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:07:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00656 (152 reqs/sec) | Rendering: 0.00027 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:07:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00407 (245 reqs/sec) | Rendering: 0.00074 (18%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:07:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00823 (121 reqs/sec) | Rendering: 0.00034 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:07:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00372 (268 reqs/sec) | Rendering: 0.00070 (18%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:07:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00863 (115 reqs/sec) | Rendering: 0.00034 (3%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_pie (for 127.0.0.1 at 2008-11-03 19:08:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_pie", "controller"=>"test_it"}
+Rendering test_it/index_pie
+Completed in 0.01314 (76 reqs/sec) | Rendering: 0.00997 (75%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_pie]
+
+
+Processing TestItController#graph_code_pie (for 127.0.0.1 at 2008-11-03 19:08:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_pie", "controller"=>"test_it"}
+Completed in 0.00334 (299 reqs/sec) | Rendering: 0.00026 (7%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_pie]
+
+
+Processing TestItController#index_line (for 127.0.0.1 at 2008-11-03 19:08:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_line", "controller"=>"test_it"}
+Rendering test_it/index_line
+Completed in 0.02049 (48 reqs/sec) | Rendering: 0.01726 (84%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_line]
+
+
+Processing TestItController#graph_code_line (for 127.0.0.1 at 2008-11-03 19:08:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_line", "controller"=>"test_it"}
+Completed in 0.00614 (162 reqs/sec) | Rendering: 0.00034 (5%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_line]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:08:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00810 (123 reqs/sec) | Rendering: 0.00036 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:08:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00376 (265 reqs/sec) | Rendering: 0.00070 (18%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:08:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00623 (160 reqs/sec) | Rendering: 0.00026 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:08:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00394 (253 reqs/sec) | Rendering: 0.00072 (18%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:08:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00561 (178 reqs/sec) | Rendering: 0.00024 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:08:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00394 (254 reqs/sec) | Rendering: 0.00073 (18%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:08:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00575 (173 reqs/sec) | Rendering: 0.00028 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:08:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00388 (257 reqs/sec) | Rendering: 0.00071 (18%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:08:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00593 (168 reqs/sec) | Rendering: 0.00036 (6%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:12:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00390 (256 reqs/sec) | Rendering: 0.00067 (17%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:12:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00629 (159 reqs/sec) | Rendering: 0.00030 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:12:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00391 (255 reqs/sec) | Rendering: 0.00075 (19%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:12:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00876 (114 reqs/sec) | Rendering: 0.00036 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:12:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00286 (349 reqs/sec) | Rendering: 0.00053 (18%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:12:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00594 (168 reqs/sec) | Rendering: 0.00029 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_scatterline (for 127.0.0.1 at 2008-11-03 19:12:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_scatterline", "controller"=>"test_it"}
+Rendering test_it/index_scatterline
+Completed in 0.00388 (257 reqs/sec) | Rendering: 0.00068 (17%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_scatterline]
+
+
+Processing TestItController#graph_code_scatterline (for 127.0.0.1 at 2008-11-03 19:12:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_scatterline", "controller"=>"test_it"}
+Completed in 0.00808 (123 reqs/sec) | Rendering: 0.00036 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_scatterline]
+
+
+Processing TestItController#index_radar$ (for 127.0.0.1 at 2008-11-03 19:18:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_radar$", "controller"=>"test_it"}
+
+
+ActionController::UnknownAction (No action responded to index_radar$):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TestItController#index_radar (for 127.0.0.1 at 2008-11-03 19:18:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_radar", "controller"=>"test_it"}
+Rendering test_it/index_radar
+Completed in 0.00388 (257 reqs/sec) | Rendering: 0.00099 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_radar]
+
+
+Processing TestItController#graph_code_radar (for 127.0.0.1 at 2008-11-03 19:18:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_radar", "controller"=>"test_it"}
+
+
+NameError (uninitialized constant TestItController::RadarAxis):
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:492:in `const_missing'
+    /app/controllers/test_it_controller.rb:402:in `graph_code_radar'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing TestItController#index_radar (for 127.0.0.1 at 2008-11-03 19:19:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_radar", "controller"=>"test_it"}
+Rendering test_it/index_radar
+Completed in 0.00328 (304 reqs/sec) | Rendering: 0.00096 (29%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_radar]
+
+
+Processing TestItController#graph_code_radar (for 127.0.0.1 at 2008-11-03 19:19:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_radar", "controller"=>"test_it"}
+Completed in 0.00402 (248 reqs/sec) | Rendering: 0.00025 (6%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_radar]
+  [4;36;1mSQL (0.009538)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000212)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.008591)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.003268)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000279)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000171)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000206)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000268)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000177)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.006375)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002697)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000260)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000126)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002325)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000520)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000079)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000222)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000085)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000175)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.019292)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.002987)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000207)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000081)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.002886)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Processing TestItController#index_radar (for 127.0.0.1 at 2008-11-03 19:55:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_radar", "controller"=>"test_it"}
+Rendering test_it/index_radar
+Completed in 0.01303 (76 reqs/sec) | Rendering: 0.01067 (81%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_radar]
+
+
+Processing TestItController#graph_code_radar (for 127.0.0.1 at 2008-11-03 19:55:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_radar", "controller"=>"test_it"}
+
+
+NameError (uninitialized constant TestItController::RadarAxis):
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:492:in `const_missing'
+    /app/controllers/test_it_controller.rb:402:in `graph_code_radar'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.3/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing TestItController#index_radar (for 127.0.0.1 at 2008-11-03 21:05:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"index_radar", "controller"=>"test_it"}
+Rendering test_it/index_radar
+Completed in 0.01265 (79 reqs/sec) | Rendering: 0.00926 (73%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/index_radar]
+
+
+Processing TestItController#graph_code_radar (for 127.0.0.1 at 2008-11-03 21:05:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--18b029d8ac4906cdb3c632de0480dc93419af204
+  Parameters: {"action"=>"graph_code_radar", "controller"=>"test_it"}
+Completed in 0.00406 (246 reqs/sec) | Rendering: 0.00024 (5%) | DB: 0.00000 (0%) | 200 OK [http://localhost/test_it/graph_code_radar]
